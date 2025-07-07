@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anits College Fest</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .header {
+      background-image: url('https://i.ytimg.com/vi/eS36IpEMTak/maxresdefault.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      position: relative;
+      color: white;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+
+    .navbar {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px 20px;
+    }
+
+    .navbar img {
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    .navbar-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .header-content {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .header-button {
+      padding: 15px 35px;
+      font-size: 22px;
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      transition: background-color 0.3s ease;
+    }
+
+    .header-button:hover {
+      background-color: #d81b60;
+    }
+    .card {
+      background-color: #fff;
+      color: #333;
+      margin: 30px auto;
+      width: 90%;
+      max-width: 500px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card h4 {
+      margin: 10px 0;
+    }
+
+  
+    .marquee {
+      background: linear-gradient(to right, #7f5af0, #ff7a5a);
+      color: white;
+      padding: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      overflow: hidden;
+    }
+
+    marquee {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+  
+    .body-section {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+
+    .action-button {
+      margin: 15px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #673ab7;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .action-button:hover {
+      background-color: #512da8;
+    }
+
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 600px) {
+      .navbar-title {
+        font-size: 16px;
+      }
+
+      .header-button {
+        font-size: 18px;
+        padding: 12px 25px;
+      }
+
+      .card {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="overlay"></div>
+
+    <div class="navbar">
+      <img src="http://sciconf.co/wp-content/uploads/2023/10/anitslogo2.jpg" alt="Anits Logo">
+      <div class="navbar-title">Anil Neerukonda Institute of Technology and Sciences (ANITS)</div>
+    </div>
+
+    
+    <div class="header-content">
+      <a href="1.html"><button class="header-button">🎓 Select Department</button></a>
+    </div>
+  </div>
+
+  
+  <div class="card">
+    <h4><strong>📍 Venue:</strong> Anits Campus</h4>
+    <h4><strong>📅 Date:</strong> July 30, 2025</h4>
+    <h4><strong>🕒 Time:</strong> 5:30 PM – 8:00 PM</h4>
+  </div>
+
+  
+  <div class="marquee">
+    <marquee behavior="scroll" direction="left">📢 Latest Fest Notification: Registrations close on 15th July! Hurry up and don't miss out on the fun! 🎉✨</marquee>
+  </div>
+
+  
+  <div class="body-section">
+    <button class="action-button">💼 Sponsorship Benefits</button>
+    <button class="action-button">📝 Sponsorship Register</button>
+  </div>
+
+  
+  <footer>
+    <p><strong>Made with ❤️ by ANITS Fest Team</strong></p>
+  </footer>
+
+</body>
+</html>

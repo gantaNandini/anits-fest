@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Department - ANITS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-image: url('https://i.ytimg.com/vi/eS36IpEMTak/maxresdefault.jpg'); /* ANITS background */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* Header */
+    .header {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .header img {
+      height: 50px;
+      margin-right: 15px;
+    }
+
+    .header-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    /* Title */
+    .page-title {
+      text-align: center;
+      font-size: 28px;
+      margin: 30px 10px 20px;
+      color: white;
+      background-color: grey;
+      text-shadow: 1px 1px 3px black;
+    }
+
+    /* Department buttons - vertical list */
+    .departments {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .dept-button {
+      margin: 10px 0;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s;
+    }
+
+    .dept-button:hover {
+      background-color: #d81b60;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 16px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .page-title {
+        font-size: 22px;
+      }
+
+      .dept-button {
+        font-size: 16px;
+        padding: 12px 20px;
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with logo and title -->
+  <div class="header">
+    <img src="http://sciconf.co/wp-content/uploads/2023/10/anitslogo2.jpg" alt="ANITS Logo">
+    <div class="header-title">Anil Neerukonda Institute of Technology and Sciences (ANITS)</div>
+  </div>
+
+  <!-- Title -->
+  <h1 class="page-title">Select a Department</h1>
+
+  <!-- Department Buttons (Vertical Layout) -->
+  <div class="departments">
+    <a href="cse.html"><button class="dept-button">CSE </button></a>
+     <a href="cse.html"><button class="dept-button">CSM </button></a>
+     <a href="cse.html"><button class="dept-button">CSD </button></a>
+     <a href="cse.html"><button class="dept-button">ECE</button></a>
+     <a href="cse.html"><button class="dept-button">EEE</button></a>
+     <a href="cse.html"><button class="dept-button">MECH </button></a>
+     <a href="cse.html"><button class="dept-button">CIVIL </button></a>
+     <a href="cse.html"><button class="dept-button">CHEMICAL </button></a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p><strong>Made with ❤️ by ANITS Fest Team</strong></p>
+  </footer>
+
+</body>
+</html>
